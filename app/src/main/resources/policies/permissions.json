@@ -1,0 +1,20 @@
+
+{
+  "ai_core": {
+    "allow_self_improvement": false,
+    "allow_inference": false,
+    "allow_personification": false
+  },
+  "internet_access": {
+    "allowed_domains": ["example.com", "wikipedia.org", "openai.com"],
+    "disallowed_domains": ["socialmedia.com", "ads.com"]
+  },
+  "modules": {
+    "read_only": ["lotr.txt"],
+    "requires_approval": ["any_new_module"]
+  },
+  "logging": {
+    "enable_prompt_logging": true,
+    "log_path": "app/src/main/resources/logs/prompt_log.txt"
+  }
+}
